@@ -2,8 +2,8 @@
   "name": "@mapbox/mapbox-gl-draw",
   "version": "1.4.1",
   "description": "A drawing component for Mapbox GL JS",
-  "homepage": "https://github.com/mapbox/mapbox-gl-draw",
-  "author": "mapbox",
+  "homepage": "https://github.com/rosdade/mapbox-gl-draw",
+  "author": "rosdade",
   "license": "ISC",
   "main": "dist/mapbox-gl-draw.js",
   "browser": "dist/mapbox-gl-draw.js",
@@ -23,15 +23,14 @@
     "watch": "rollup -c --watch",
     "watch-bench": "rollup -c bench/rollup.config.js --watch",
     "start-server": "st --no-cache -H 0.0.0.0 --port 9967 --index index.html .",
-    "start": "run-p build-token watch watch-bench start-server",
-    "prepare": "npm run build-min"
+    "start": "run-p build-token watch watch-bench start-server"
   },
   "files": [
     "dist/mapbox-gl-draw*"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mapbox/mapbox-gl-draw.git"
+    "url": "git://github.com/rosdade/mapbox-gl-draw.git"
   },
   "keywords": [
     "webgl",
@@ -39,9 +38,6 @@
     "draw",
     "drawing"
   ],
-  "bugs": {
-    "url": "https://github.com/mapbox/mapbox-gl-draw/issues"
-  },
   "nyc": {
     "sourceMap": false,
     "instrument": false
